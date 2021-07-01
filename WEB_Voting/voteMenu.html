@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        body {
+            align-items: center;
+			overflow: hidden;
+        }
+
+        #pageTitle {
+            margin: auto;
+            width: 800px;
+            margin-bottom: 30px;
+            margin-top: 50px;
+        }
+
+        #titleText {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        #explaText {
+            margin-top: 5px;
+            font-size: 15px;
+        }
+
+        .navLine {
+            width: 800px;
+            margin: auto;
+        }
+
+        #navBar {
+            align-items: center;
+            margin: auto;
+            width: 800px;
+        }
+
+        #navBar a {
+            display: inline-block;
+            width: 100px;
+            padding: 16px;
+
+            text-decoration: none;
+            text-align: center;
+            color: black;
+
+        }
+
+        #navBar a:hover {
+            background-color: #e7e7e7;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="pageTitle">
+        <strong id="titleText">제 1회 폴리대학교 대표 선거</strong>
+        <p id="explaText">폴리대학교를 위한 대표 선거에 참여해주셔서 감사합니다.</p>
+    </div>
+
+    <hr class="navLine">
+    <div id="navBar">
+        <a href="signup.jsp" target=main>후보 등록</a>
+        <a href="vote.jsp" target=main>투표</a>
+        <a href="result.jsp" target=main>결과 확인</a>
+    </div>
+    <hr class="navLine">
+
+</body>
+
+</html>
